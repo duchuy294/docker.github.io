@@ -163,7 +163,7 @@ container started for that service, much like passing command-line parameters to
 `docker run`. Likewise, network and volume definitions are analogous to
 `docker network create` and `docker volume create`.
 
-As with `docker run`, options specified in the Dockerfile (e.g., `CMD`,
+As with `docker run`, options specified in the Dockerfile (e.g..., `CMD`,
 `EXPOSE`, `VOLUME`, `ENV`) are respected by default - you don't need to
 specify them again in `docker-compose.yml`.
 
